@@ -1,13 +1,13 @@
 import { motion } from "framer-motion";
 import ServiceCard from "@/components/service-card";
-import { Box, Palette, Lightbulb } from "lucide-react";
+import { BoxIcon, Palette, Lightbulb } from "lucide-react";
 
 export default function Services() {
   const services = [
     {
       title: "3D Design & Prototyping",
       description: "Photorealistic 3D visualization and prototyping for products, architecture, and more.",
-      Icon: Box
+      Icon: BoxIcon
     },
     {
       title: "Luxury Brand Development",

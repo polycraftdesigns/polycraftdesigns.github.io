@@ -6,19 +6,19 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-4">PolyCraft</h3>
             <p className="text-sm text-muted-foreground">
-              Premium design consultancy specializing in 3D modeling, branding, and strategic design consulting.
+              Premium design consultancy blending Swiss precision with South African creativity, specializing in 3D modeling, branding, and strategic design consulting.
             </p>
           </div>
-          
+
           <div>
             <h3 className="text-lg font-semibold mb-4">Contact</h3>
             <p className="text-sm text-muted-foreground">
-              Lugano, Switzerland<br />
-              info@polycraft.com<br />
+              Lugano, Switzerland & South Africa<br />
+              info@polycraftdesigns.com<br />
               +41 123 456 789
             </p>
           </div>
-          
+
           <div>
             <h3 className="text-lg font-semibold mb-4">Legal</h3>
             <div className="space-y-2">
@@ -27,7 +27,7 @@ export default function Footer() {
             </div>
           </div>
         </div>
-        
+
         <div className="mt-8 pt-8 border-t text-center text-sm text-muted-foreground">
           © {new Date().getFullYear()} PolyCraft. All rights reserved.
         </div>

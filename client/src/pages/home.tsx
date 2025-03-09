@@ -15,13 +15,13 @@ export default function Home() {
             className="max-w-3xl"
           >
             <h1 className="text-4xl md:text-6xl font-bold tracking-tighter mb-6">
-              Precision. Innovation.
+              Swiss Precision.
               <br />
-              Design Excellence.
+              African Creativity.
             </h1>
             <p className="text-xl text-muted-foreground mb-8">
               We craft exceptional digital experiences for premium brands,
-              combining Swiss precision with innovative design.
+              combining Swiss precision with South African innovation.
             </p>
             <Link href="/contact">
               <Button size="lg" className="group">
@@ -43,12 +43,13 @@ export default function Home() {
             />
             <div className="flex flex-col justify-center">
               <h2 className="text-3xl font-bold tracking-tighter mb-4">
-                Swiss Design Excellence
+                Global Design Excellence
               </h2>
               <p className="text-muted-foreground">
-                Based in Lugano, Switzerland, we bring precision and innovation
-                to every project. Our expertise in 3D modeling, branding, and
-                strategic design consulting helps premium brands stand out.
+                With studios in Lugano and South Africa, we bring a unique blend of
+                precision and creativity to every project. Our expertise in 3D modeling,
+                branding, and strategic design consulting helps premium brands stand out
+                in the global market.
               </p>
             </div>
           </div>
