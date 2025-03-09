@@ -23,7 +23,7 @@ export default function Services() {
 
   return (
     <div className="py-12 md:py-24">
-      <div className="container">
+      <div className="container px-6 md:px-8 lg:px-12">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -38,7 +38,7 @@ export default function Services() {
           </p>
         </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-12 max-w-6xl mx-auto">
           {services.map((service, index) => (
             <motion.div
               key={index}

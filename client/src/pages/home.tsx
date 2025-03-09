@@ -7,12 +7,12 @@ export default function Home() {
   return (
     <div>
       <section className="relative min-h-[80vh] flex items-center">
-        <div className="container">
+        <div className="container px-6 md:px-8 lg:px-12">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
-            className="max-w-3xl"
+            className="max-w-3xl mx-auto"
           >
             <h1 className="text-4xl md:text-6xl font-bold tracking-tighter mb-6">
               Swiss Precision.
@@ -34,8 +34,8 @@ export default function Home() {
       </section>
 
       <section className="py-24 bg-muted">
-        <div className="container">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+        <div className="container px-6 md:px-8 lg:px-12">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 lg:gap-16">
             <img
               src="https://images.unsplash.com/photo-1556761175-4b46a572b786"
               alt="Modern office space"

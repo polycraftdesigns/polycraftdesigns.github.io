@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 export default function About() {
   return (
     <div className="py-12 md:py-24">
-      <div className="container">
+      <div className="container px-6 md:px-8 lg:px-12">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -18,7 +18,7 @@ export default function About() {
           </p>
         </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-24">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 lg:gap-16 items-center mb-24">
           <div>
             <h2 className="text-3xl font-bold tracking-tighter mb-4">
               Our Story
@@ -42,7 +42,7 @@ export default function About() {
           </div>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center max-w-4xl mx-auto">
           <div>
             <h3 className="text-2xl font-bold mb-2">10+</h3>
             <p className="text-muted-foreground">Years of Excellence</p>
