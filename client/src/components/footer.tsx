@@ -24,6 +24,11 @@ export default function Footer() {
             <div className="space-y-2">
               <p className="text-sm text-muted-foreground">Privacy Policy</p>
               <p className="text-sm text-muted-foreground">Terms of Service</p>
+              <div className="mt-4 text-xs text-muted-foreground/80">
+                <p>Switzerland: CHE-374.188.412</p>
+                <p>South Africa: POLYCRAFT SOUTH AFRICA (Pty) Ltd</p>
+                <p>Registration: 2025/164321/07</p>
+              </div>
             </div>
           </div>
         </div>
