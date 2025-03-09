@@ -1,16 +1,16 @@
 export default function Footer() {
   return (
     <footer className="border-t">
-      <div className="container py-8 md:py-12">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          <div>
+      <div className="container py-8 md:py-12 px-6 md:px-8 lg:px-12">
+        <div className="flex flex-col md:flex-row justify-between gap-8">
+          <div className="flex-1">
             <h3 className="text-lg font-semibold mb-4">PolyCraft</h3>
             <p className="text-sm text-muted-foreground">
               Premium design consultancy blending Swiss precision with South African creativity, specializing in 3D modeling, branding, and strategic design consulting.
             </p>
           </div>
 
-          <div>
+          <div className="flex-1">
             <h3 className="text-lg font-semibold mb-4">Contact</h3>
             <p className="text-sm text-muted-foreground">
               Lugano, Switzerland & Cape Town, South Africa<br />
@@ -19,7 +19,7 @@ export default function Footer() {
             </p>
           </div>
 
-          <div>
+          <div className="flex-1">
             <h3 className="text-lg font-semibold mb-4">Legal</h3>
             <div className="space-y-2">
               <p className="text-sm text-muted-foreground">Privacy Policy</p>
