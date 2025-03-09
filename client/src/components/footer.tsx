@@ -26,7 +26,7 @@ export default function Footer() {
               <p className="text-sm text-muted-foreground">Terms of Service</p>
               <div className="mt-4 text-xs text-muted-foreground/80">
                 <p>Swiss UID: CHE-374.188.412</p>
-                <p>POLYCRAFT SOUTH AFRICA (Pty) Ltd 2025/164321/07</p>
+                <p>PolyCraft South Africa (Pty) Ltd 2025/164321/07</p>
               </div>
             </div>
           </div>
