@@ -13,7 +13,7 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-4">Contact</h3>
             <p className="text-sm text-muted-foreground">
-              Lugano, Switzerland & South Africa<br />
+              Lugano, Switzerland & Cape Town, South Africa<br />
               info@polycraftdesigns.com<br />
               +41 123 456 789
             </p>

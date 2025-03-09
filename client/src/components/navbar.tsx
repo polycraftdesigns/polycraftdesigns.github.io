@@ -16,13 +16,13 @@ export default function Navbar() {
     <nav className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-16 items-center justify-between">
         <Link href="/">
-          <a className="text-xl font-bold tracking-tighter">PolyCraft</a>
+          <span className="text-xl font-bold tracking-tighter">PolyCraft</span>
         </Link>
-        
+
         <div className="hidden md:flex gap-6">
           {links.map(({ href, label }) => (
             <Link key={href} href={href}>
-              <a
+              <span
                 className={cn(
                   "text-sm font-medium transition-colors hover:text-primary",
                   location === href
@@ -31,7 +31,7 @@ export default function Navbar() {
                 )}
               >
                 {label}
-              </a>
+              </span>
             </Link>
           ))}
         </div>

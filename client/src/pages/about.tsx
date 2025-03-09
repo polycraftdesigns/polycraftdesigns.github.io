@@ -14,7 +14,7 @@ export default function About() {
             About PolyCraft
           </h1>
           <p className="text-xl text-muted-foreground">
-            Founded in Lugano, Switzerland, with a vision to redefine premium design.
+            Founded in Lugano, Switzerland, with studios in Cape Town, South Africa.
           </p>
         </motion.div>
 
@@ -24,13 +24,12 @@ export default function About() {
               Our Story
             </h2>
             <p className="text-muted-foreground mb-4">
-              PolyCraft was born from a passion for precision and innovation in design.
-              Our journey began in the heart of Switzerland, where attention to detail
-              and excellence are cultural cornerstones.
+              PolyCraft was born from a vision to combine Swiss precision with South African creativity.
+              Our journey began between the precision of Switzerland and the vibrant creative energy of Cape Town.
             </p>
             <p className="text-muted-foreground">
-              Today, we work with premium brands worldwide, bringing Swiss design
-              principles to every project we undertake.
+              Today, we work with premium brands worldwide, bringing this unique blend of design
+              perspectives to every project we undertake.
             </p>
           </div>
           <div>
